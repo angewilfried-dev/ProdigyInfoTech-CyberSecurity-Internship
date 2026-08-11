@@ -33,7 +33,9 @@ The same shift value can be used in the opposite direction to decrypt the messag
 ## 🛠️ Technologies Used
 
 - Python 3
-- VS Code
+- Visual Studio Code
+- Git
+- GitHub
 
 ## ▶️ How to Run
 
@@ -41,6 +43,7 @@ Run the following command:
 
 ```bash
 python caesar_cipher.py
+
 ```
 
 Then choose one of the available options:
@@ -53,19 +56,15 @@ Enter your message and shift value when prompted.
 
 🧪 Example
 Encryption
-
 Message: Hello World
 Shift: 3
 
 Encrypted message: Khoor Zruog
-
 Decryption
-
 Message: Khoor Zruog
 Shift: 3
 
 Decrypted message: Hello World
-
 🔒 Security Note
 
 The Caesar Cipher is useful for learning the basic concepts of encryption and decryption. However, it is not considered secure for protecting sensitive information because the number of possible shifts is very limited.
@@ -73,19 +72,29 @@ The Caesar Cipher is useful for learning the basic concepts of encryption and de
 This project is intended for educational purposes.
 
 📸 Screenshots
+Program Code
 
-Screenshots demonstrating the source code, encryption, and decryption tests are included in the screenshots folder.
+Encryption
 
+Decryption
+
+📁 Project Structure
+Task-01-Caesar-Cipher/
+├── README.md
+├── caesar_cipher.py
+└── screenshots/
+    ├── 01-code.png
+    ├── 01.1-code.png
+    ├── 02-encryption.png
+    └── 03-decryption.png
 🎓 Internship
 
 Organization: Prodigy InfoTech
 Domain: Cyber Security
 Task: Task-01 – Caesar Cipher
 
-
-### Ensuite
-
-Dans **Commit message**, mets :
+👤 Author
+Moh
 
 ```text
 Add Task-01 documentation
